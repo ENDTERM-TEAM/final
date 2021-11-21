@@ -2,7 +2,11 @@ package com.company;
 
 import com.company.decorator.DeliveryDecorator;
 import com.company.decorator.TakeAwayDecorator;
+import com.company.factory.IMedicine;
+import com.company.factory.MedicineFactory;
 import com.company.observer.News;
+import com.company.strategy.Basket;
+import com.company.strategy.SubscribeForNews;
 
 import java.util.Scanner;
 

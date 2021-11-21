@@ -1,4 +1,4 @@
-package com.company;
+package com.company.factory;
 
 public class PrescriptionOnly implements IMedicine {
     private String name;

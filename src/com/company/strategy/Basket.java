@@ -1,9 +1,8 @@
-package com.company;
+package com.company.strategy;
 
+import com.company.User;
 import com.company.decorator.CreateOrder;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.company.strategy.UserServiceStrategy;
 
 public class Basket implements UserServiceStrategy, CreateOrder {
     private Double allPrice = 0.0;

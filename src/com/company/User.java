@@ -3,6 +3,7 @@ package com.company;
 import com.company.observer.IObserver;
 import com.company.observer.News;
 import com.company.singleton.Authorization;
+import com.company.strategy.UserServiceStrategy;
 
 public class User implements IObserver {
     private String username;

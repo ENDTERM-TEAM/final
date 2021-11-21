@@ -1,10 +1,10 @@
-package com.company;
+package com.company.factory;
 
-public class General implements IMedicine {
+public class Pharmacy implements IMedicine {
     private String name;
     private Double price;
 
-    public General(String name, Double price) {
+    public Pharmacy(String name, Double price) {
         this.name = name;
         this.price = price;
     }
@@ -16,6 +16,6 @@ public class General implements IMedicine {
 
     @Override
     public String getDesc() {
-        return "This " + name + " is available to everyone";
+        return "This " + name + " available only from a pharmacist but without a prescription";
     }
 }

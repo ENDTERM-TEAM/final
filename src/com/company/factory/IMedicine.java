@@ -1,4 +1,4 @@
-package com.company;
+package com.company.factory;
 
 public interface IMedicine {
     Double getPrice();

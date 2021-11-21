@@ -1,4 +1,4 @@
-package com.company;
+package com.company.factory;
 
 public class MedicineFactory {
     public IMedicine createMedicine(String medicine, String name, Double price) {
