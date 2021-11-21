@@ -1,5 +1,5 @@
 package com.company;
 
 public interface UserServiceStrategy {
-    public String service();
+    public String service(User user);
 }
